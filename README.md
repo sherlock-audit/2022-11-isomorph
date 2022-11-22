@@ -64,7 +64,7 @@ To support the loan system Isomorph contains a liquidation system present in eac
 
 If you swap to a different network you will need to update the static addresses that the Vaults rely on for Lyra, Synthetix and Velodrome. 
 
-- Update ISOUSD_TIME_DELAY in isoUSDToken.sol to a shorter time than it's expected 3 days value.  This is necessary to test Vault_Lyra.sol and Vault_Synths.sol because both rely on external oracles which will break functionality if we skip 3 days ahead and do not update them, updating them is too convoluted so instead we just use a shorter timelock for testing.
+- Update ISOUSD_TIME_DELAY in isoUSDToken.sol to a shorter time than it's expected 3 days value. For tests 3 seconds is suggested. This is necessary to test Vault_Lyra.sol and Vault_Synths.sol because both rely on external oracles which will break functionality if we skip 3 days ahead and do not update them, updating them is too convoluted so instead we just use a shorter timelock for testing.
 
 - Then run "yarn hardhat test" to run all tests. All tests should pass, occasionally the API will time out due to some of the tests taking a while to process, if this happens run again. The first test run will likely be much slower due to needing to fetch contract information at the fork block height. We use this block height for integration testing as we know all token doners have the balances we need to borrow at this height. If the block height is changed be aware tests using Synths or Lyra systems may fail if the respective external system's circuit breaker is in effect.
 

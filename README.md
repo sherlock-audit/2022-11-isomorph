@@ -11,10 +11,10 @@
 
 - [Website](https://isomorph.loans/)
 - [Twitter](https://twitter.com/IsomorphLoans)
-- [Isomorph contracts @50c2be8](https://github.com/kree-dotcom/isomorph/tree/50c2be8ead3b7909f7825ce3a469d7b812be4c23)
-- [Velo-Deposit-Tokens @f7ccda9](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/f7ccda9fa2f660fae68df65746e9782f86e02518)
+- [Isomorph contracts @789338c](https://github.com/kree-dotcom/isomorph/tree/789338c8979ab75b8187781a2500908bb26dcdea)
+- [Velo-Deposit-Tokens @1e92342](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/1e9234236a8ff708d67343bc54f93af5bb584e06)
 - [Isomorph docs and diagrams](https://github.com/kree-dotcom/isomorph/docs)
-- [Velo-Deposit-Token docs and diagram](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/f7ccda9fa2f660fae68df65746e9782f86e02518/docs)
+- [Velo-Deposit-Token docs and diagram](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/1e9234236a8ff708d67343bc54f93af5bb584e06/docs)
 
 # On-chain context
 
@@ -25,7 +25,7 @@ ERC721: Only Velo-Deposit-Tokens used with `Vault_Velo.sol`
 ```
 
 # Audit scope
-The following contracts in the repo [Isomorph @50c2be8](https://github.com/kree-dotcom/isomorph/tree/50c2be8ead3b7909f7825ce3a469d7b812be4c23) are in scope:
+The following contracts in the repo [Isomorph @789338c](https://github.com/kree-dotcom/isomorph/tree/789338c8979ab75b8187781a2500908bb26dcdea) are in scope:
 
 - `CollateralBook.sol`
 - `Locker.sol`
@@ -36,7 +36,7 @@ The following contracts in the repo [Isomorph @50c2be8](https://github.com/kree-
 - `Vault_Velo.sol`
 - `isoUSDToken.sol`
 
-Also included as the following contracts contained in the [Velo-Deposit-Tokens @f7ccda9](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/f7ccda9fa2f660fae68df65746e9782f86e02518) submodule
+Also included as the following contracts contained in the [Velo-Deposit-Tokens @1e92342](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/1e9234236a8ff708d67343bc54f93af5bb584e06) submodule
 
 - `DepositReceipt.sol`
 - `Depositor.sol`

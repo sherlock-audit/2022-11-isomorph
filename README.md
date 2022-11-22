@@ -38,7 +38,9 @@ The following contracts in the repo [Isomorph @789338c](https://github.com/kree-
 
 Also included as the following contracts contained in the [Velo-Deposit-Tokens @1e92342](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/1e9234236a8ff708d67343bc54f93af5bb584e06) submodule
 
-- `DepositReceipt.sol`
+- `DepositReceipt_Base.sol`
+- `DepositReceipt_ETH.sol`
+- `DepositReceipt_USDC.sol`
 - `Depositor.sol`
 - `Templater.sol`
 

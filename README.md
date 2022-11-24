@@ -13,7 +13,7 @@
 - [Twitter](https://twitter.com/IsomorphLoans)
 - [Isomorph contracts @789338c](https://github.com/kree-dotcom/isomorph/tree/789338c8979ab75b8187781a2500908bb26dcdea)
 - [Velo-Deposit-Tokens @1e92342](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/1e9234236a8ff708d67343bc54f93af5bb584e06)
-- [Isomorph docs and diagrams](https://github.com/kree-dotcom/isomorph/docs)
+- [Isomorph docs and diagrams](https://github.com/kree-dotcom/isomorph/tree/789338c8979ab75b8187781a2500908bb26dcdea/docs)
 - [Velo-Deposit-Token docs and diagram](https://github.com/kree-dotcom/Velo-Deposit-Tokens/tree/1e9234236a8ff708d67343bc54f93af5bb584e06/docs)
 
 # On-chain context
